@@ -19,7 +19,7 @@ const About = ()=>{
     const callAboutPage = async () => {
 
         try{
-            const res = await fetch('http://localhost:4000/about',{
+            const res = await fetch('https://nodejsbackend-test.herokuapp.com/about',{
                // mode:"no-cors",
                 method:"GET",
                 headers:{
@@ -76,7 +76,7 @@ const About = ()=>{
             body: formData
         };
         callAboutPage()
-        fetch("http://localhost:4000/updateProfile", option);
+        fetch("https://nodejsbackend-test.herokuapp.com/updateProfile", option);
         
     }
 
@@ -88,7 +88,7 @@ const About = ()=>{
                 <div class="row">
                     <div class="col-md-4">
                         <div class="profile-img">
-                            <img src={`http://localhost:4000/uploads/${userData.img}`} alt=""/>
+                            <img src={`https://nodejsbackend-test.herokuapp.com/uploads/${userData.img}`} alt=""/>
                             <div class="file btn btn-lg btn-primary">
                                 Change Photo
                                 <input type="file" onChange={handlaeChange} name="img"/>

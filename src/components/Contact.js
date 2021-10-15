@@ -10,7 +10,7 @@ const Contact = ()=>{
         const userContract = async () => {
     
             try{
-                const res = await fetch('https://backend-node-app.herokuapp.com/getdata',{
+                const res = await fetch('https://nodejsbackend-test.herokuapp.com/getdata',{
                    // mode:"no-cors",
                     method:"GET",
                     headers:{

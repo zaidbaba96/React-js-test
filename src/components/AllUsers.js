@@ -16,7 +16,7 @@ const AllUsers = () => {
   console.log(gridColumnApi)
   const getEmployeeData = async () =>{
             try{
-                const data = await axios.get("http://localhost:4000/all");
+                const data = await axios.get("https://nodejsbackend-test.herokuapp.com/all");
                 console.log(data.data, "All User");
                 setAtdData(data.data)
             }

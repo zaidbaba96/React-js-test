@@ -53,7 +53,7 @@ const { register, handleSubmit, formState } = useForm(formOptions);
 
     const {name , email , phone , password , confirmPassword} = user;
 
-    const res = await fetch("https://backend-node-app.herokuapp.com/register", {
+    const res = await fetch("https://nodejsbackend-test.herokuapp.com/register", {
       method:"POST",
       headers:{"Content-Type" : "application/json"},
       body:JSON.stringify({
