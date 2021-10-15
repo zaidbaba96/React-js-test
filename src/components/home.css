@@ -1,0 +1,35 @@
+
+.home-page{
+    height: 700px;
+    background: linear-gradient(90deg, #cedce2 50%, #f9fcfc 50%);
+    overflow: hidden !important;
+  }
+
+  .home-div p{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-family: 'Dancing Script', cursive !important;
+    font-family: 'Yomogi', cursive !important;
+  }
+
+  .home-div h1{
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    top: 48%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .home-div h2{
+    font-family: 'Dancing Script', cursive !important;
+    font-family: 'Yomogi', cursive !important;
+    position: absolute;
+    left: 50%;
+    top: 52%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
